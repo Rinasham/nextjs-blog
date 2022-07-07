@@ -7,8 +7,7 @@ export default function Jumbotron() {
       <div
         className="w-screen p-12 text-center relative overflow-hidden bg-no-repeat bg-cover rounded-lg"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/standard/city/041.jpg')",
+          backgroundImage: `url("https://mdbootstrap.com/img/new/standard/city/041.jpg")`,
           height: "400px",
         }}
       >
