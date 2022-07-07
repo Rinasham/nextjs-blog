@@ -27,6 +27,21 @@ export default function Layout({ children, title = "HP by Next.js" }) {
                   Contact
                 </a>
               </Link>
+              <Link href="/cards">
+                <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  Cards
+                </a>
+              </Link>
+              <Link href="/jumbotron">
+                <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  Jumbotron
+                </a>
+              </Link>
+              <Link href="/responsive">
+                <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  Responsive
+                </a>
+              </Link>
             </div>
           </div>
         </nav>

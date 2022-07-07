@@ -12,8 +12,8 @@ const teamD = [
 // Card practice
 export default function cards() {
   return (
-    <Layout title="Blog">
-      <div className="flex flex-wrap gap-4 ">
+    <Layout title="Cards">
+      <div className="flex flex-wrap gap-4 mx-10">
         {teamD.map((member) => {
           return <Card key={member.name} member={member} />;
         })}
